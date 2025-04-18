@@ -1,0 +1,11 @@
+[package]
+name = "rustybins"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = "3.0"
+colored = "2.0"
+reqwest = { version = "0.11", features = ["blocking"] }
+scraper = "0.13"
+selectors = "0.22"
